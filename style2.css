@@ -8,12 +8,12 @@
 }
 
 .dark-mode {
-  --color-primary1: #242424;
-  --color-primary2: #3d3d3d;
-  --color-secondary1: #917959;
-  --color-secondary2: #6b503d;
-  --color-accent1: #0053da;
-  --color-accent2: #496da8;
+  --color-primary1: #313131;
+  --color-primary2: #11100f;
+  --color-secondary1: #ececec;
+  --color-secondary2: #a3a2a2;
+  --color-accent1: #24a5d8;
+  --color-accent2: #d42e60;
 }
 
 /* Resetter */
@@ -252,7 +252,7 @@ header button {
   padding: 2rem;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--color-white);
+  background-color: white;
 }
 
 #request div {
@@ -268,16 +268,16 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: var(--color-primary1);
-  color: var(--color-darkblue);
+  color: var(--color-accent1);
 }
 
 footer h2,
 footer h3 {
-  color: var(--color-blue);
+  color: var(--color-accent1);
 }
 
 footer a {
-  color: var(--color-blue);
+  color: var(--color-accent1);
 }
 
 footer section.left {
@@ -290,4 +290,37 @@ footer section.left {
 
 footer section div {
   margin: 0px 1rem 1rem 1rem;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+  color: var(--color-secondary1);
+}
+
+.dark-mode nav {
+  background-color: var(--color-primary1);
+}
+
+.dark-mode nav a {
+  color: var(--color-accent2);
+}
+
+.dark-mode p {
+  color: var(--color-secondary2);
+}
+
+.dark-mode .dark h2 {
+  color: var(--color-primary2) !important;
+}
+
+.dark-mode #request {
+  background-color: var(--color-primary1);
+}
+
+.dark-mode #request p {
+  color: var(--color-secondary1);
+}
+.dark-mode footer {
+  background-color: var(--color-primary2);
 }
