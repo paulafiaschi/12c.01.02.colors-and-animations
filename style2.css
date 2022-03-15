@@ -1,0 +1,284 @@
+:root {
+  --color-primary1: #fdf6ec;
+  --color-primary2: #f3e9dd;
+  --color-secondary1: #dab88b;
+  --color-secondary2: #ad8b73;
+  --color-accent1: #011638;
+  --color-accent2: #234375;
+}
+
+/* Resetter */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* Fonts */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  color: #573721;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: #5e412c;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent2);
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* UI Elements */
+button {
+  display: inline-block;
+  height: 3rem;
+  padding: 0rem 2rem;
+  border: solid 1px var(--color-accent1);
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--color-primary1);
+  color: var(--color-accent1);
+  cursor: pointer;
+}
+
+.dark_button {
+  background-color: var(--color-accent1);
+  color: var(--color-primary1);
+}
+
+.reqButton {
+  background-color: var(--color-accent1);
+  color: var(--color-primary1);
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 250px;
+  height: 3rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+  background-color: var(--color-white);
+  border-color: var(--color-accent1);
+}
+
+/* Menu */
+nav {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-secondary1);
+}
+
+nav a {
+  color: var(--color-accent1);
+  text-decoration: none;
+}
+
+nav a.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 1rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  min-height: 80vh;
+  padding: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--color-primary1);
+}
+
+header h1 {
+  color: #573721;
+}
+
+header p {
+  color: #5e412c;
+}
+
+header button {
+  margin-bottom: 5rem;
+}
+
+.header_text {
+  width: 30vw;
+  min-width: 300px;
+}
+
+.header_graphics {
+  width: 30vw;
+  height: 30vw;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 300px;
+  background-color: var(--color-secondary2);
+}
+
+/* product section */
+#product {
+  padding: 2rem;
+  background-color: var(--color-primary2);
+}
+
+#product a {
+  color: var(--color-accent2);
+}
+
+#product h3 {
+  font-size: 1.953rem;
+  line-height: 2.5rem;
+}
+
+#product article {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product_text {
+  width: 50vw;
+  min-width: 300px;
+}
+
+.product_graphics {
+  width: 15vw;
+  height: 15vw;
+  min-width: 150px;
+  min-height: 150px;
+  margin: 3rem;
+  background-color: var(--color-primary1);
+  border-radius: 300px;
+}
+
+/* highlight sections */
+.highlight {
+  display: flex;
+  min-height: 70vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-secondary2);
+}
+
+.highlight div {
+  width: 80vw;
+  text-align: center;
+  padding: 1rem;
+}
+
+.highlight div h2 {
+  color: var(--color-primary1);
+  font-size: 3.052rem;
+  line-height: 4rem;
+  max-width: 25ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dark {
+  background-color: var(--color-secondary1);
+}
+
+.dark h2 {
+  color: #573721 !important;
+}
+
+.highlight a {
+  color: var(--color-accent2);
+}
+
+.dark a {
+  color: var(--color-accent2);
+}
+
+/* request section */
+#request {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-white);
+}
+
+#request div {
+  width: 50vw;
+  min-width: 450px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  padding: 5vh 2rem;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--color-primary1);
+  color: var(--color-darkblue);
+}
+
+footer h2,
+footer h3 {
+  color: var(--color-blue);
+}
+
+footer a {
+  color: var(--color-blue);
+}
+
+footer section.left {
+  display: flex;
+  max-width: 50vw;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer section div {
+  margin: 0px 1rem 1rem 1rem;
+}
