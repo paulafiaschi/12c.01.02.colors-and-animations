@@ -7,6 +7,15 @@
   --color-accent2: #234375;
 }
 
+.dark-mode {
+  --color-primary1: #242424;
+  --color-primary2: #3d3d3d;
+  --color-secondary1: #917959;
+  --color-secondary2: #6b503d;
+  --color-accent1: #0053da;
+  --color-accent2: #496da8;
+}
+
 /* Resetter */
 * {
   margin: 0px;
